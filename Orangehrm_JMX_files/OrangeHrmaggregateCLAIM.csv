@@ -1,0 +1,30 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1751259940534,12,Iteration Start TIme,200,OK,TIME 2-1,text,true,,0,0,1,1,null,0,0,0
+1751259940581,0,Iteration Start TIme,200,OK,CLAIM 3-1,text,true,,0,0,1,2,null,0,0,0
+1751259941036,1,Iteration Start TIme,200,OK,TIME 2-2,text,true,,0,0,2,3,null,0,0,0
+1751259941081,0,Iteration Start TIme,200,OK,CLAIM 3-2,text,true,,0,0,2,4,null,0,0,0
+1751259942538,9124,Login,200,OK,TIME 2-1,text,true,,2760,707,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,9124,0,473
+1751259942899,9761,Login,200,OK,CLAIM 3-1,text,true,,2773,707,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,9761,0,483
+1751259943446,10538,Login,200,OK,TIME 2-2,text,true,,2764,707,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,10538,0,466
+1751259954698,0,Validate,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: opensource-demo.orangehrmlive.com:443 failed to respond,CLAIM 3-1,text,false,Test failed: code expected to contain /200/,2115,0,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate,0,0,0
+1751259943927,11108,Login,200,OK,CLAIM 3-2,text,true,,2780,707,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,11108,0,456
+1751259955398,1,Validate,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: opensource-demo.orangehrmlive.com:443 failed to respond,TIME 2-2,text,false,Test failed: code expected to contain /200/,2115,0,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate,0,0,0
+1751259956686,1,Validate,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: opensource-demo.orangehrmlive.com:443 failed to respond,CLAIM 3-2,text,false,Test failed: code expected to contain /200/,2115,0,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate,0,0,0
+1751259953602,19686,Validate,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,TIME 2-1,text,false,Test failed: code expected to contain /200/,5767,1135,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index,13712,0,0
+1751259953602,13712,Validate-0,302,Found,TIME 2-1,text,true,,2097,1135,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate,13712,0,0
+1751259967314,5974,Validate-1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,TIME 2-1,text,false,,3670,0,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index,0,0,0
+1751259955399,17889,TimeSheets,Non HTTP response code: java.net.SocketException,,TIME 2-2,,false,,6470,849,2,4,null,0,0,0
+1751259955400,0,Debug Sampler,200,OK,TIME 2-2,text,true,,821,0,2,4,null,0,0,0
+1751259954699,18589,Assign Claim,Non HTTP response code: java.net.SocketException,,CLAIM 3-1,,false,,6500,849,2,4,null,0,0,0
+1751259955400,17887,/web/index.php/pim/viewPimModule-58,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,TIME 2-2,text,false,Test failed: code expected to contain /200/,5649,849,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,9763,0,459
+1751259954706,0,Debug Sampler,200,OK,CLAIM 3-1,text,true,,851,0,2,4,null,0,0,0
+1751259954706,18581,/web/index.php/pim/viewPimModule-58,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,CLAIM 3-1,text,false,Test failed: code expected to contain /200/,5649,849,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,10098,0,462
+1751259954706,10098,/web/index.php/pim/viewPimModule-58-0,302,Found,CLAIM 3-1,text,true,,1979,849,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule,10098,0,462
+1751259955400,9763,/web/index.php/pim/viewPimModule-58-0,302,Found,TIME 2-2,text,true,,1979,849,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule,9763,0,459
+1751259964803,8484,/web/index.php/pim/viewPimModule-58-1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,CLAIM 3-1,text,false,,3670,0,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,0,0,0
+1751259965162,8125,/web/index.php/pim/viewPimModule-58-1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,TIME 2-2,text,false,,3670,0,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,0,0,0
+1751259956687,16601,Assign Claim,Non HTTP response code: java.net.SocketException,,CLAIM 3-2,,false,,6539,849,2,3,null,0,0,0
+1751259956688,0,Debug Sampler,200,OK,CLAIM 3-2,text,true,,890,0,2,4,null,0,0,0
+1751259956688,16600,/web/index.php/pim/viewPimModule-58,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,CLAIM 3-2,text,false,Test failed: code expected to contain /200/,5649,849,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,10291,0,452
+1751259956688,10291,/web/index.php/pim/viewPimModule-58-0,302,Found,CLAIM 3-2,text,true,,1979,849,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule,10291,0,452
+1751259966979,6309,/web/index.php/pim/viewPimModule-58-1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,CLAIM 3-2,text,false,,3670,0,2,4,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,0,0,0
